@@ -1,0 +1,6 @@
+services:
+  openwrtt:
+    build: .
+    container_name: rpi5g_container
+    volumes:
+      - ./config/.config:/home/user/openwrt/.config
